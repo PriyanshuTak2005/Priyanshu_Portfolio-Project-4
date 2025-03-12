@@ -27,6 +27,26 @@ This project is a University Data Analysis Dashboard that provides key insights 
 ->Export and share reports – Save reports as PDFs or dashboards for further analysis.<br>
 <br>
 <br>
+🗂️ Data Structure
+
+The project utilizes three datasets that are connected through primary and foreign keys:
+
+-> Colleges_Dataset (Primary Key: College Id)
+
+Contains information about colleges, including name, city, state, rank, and NIRF ranking.<br>
+<br>
+->Courses_Dataset (Foreign Key: College Id)
+
+Stores details of courses offered by colleges, including course name and abbreviation.<br>
+<br>
+->HR_Analytics (Foreign Key: College Id)
+
+Includes employee-related data such as age, department, education, daily rate, distance from home, and attrition.<br>
+<br>
+
+These relationships allow for in-depth analysis of college distribution, courses, and HR metrics.<br>
+<br>
+<br>
 🤝 Contributing<br>
 
 We welcome contributions to enhance the dashboard. Here's how you can help:<br>
